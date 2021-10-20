@@ -1,118 +1,63 @@
-.header{
-    width: 100%;
-    height: 50px;
-    background-color: gray;
-    cursor: pointer;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+body{
+    background-image: url("https://i.pinimg.com/originals/04/5f/96/045f96386935b0f63e7e2749250f4c00.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.5em;
+    height: 100vh;
 }
 
-.header:hover{
-    background-color: black;
-    color: white;
-}
-
-.header h1{
-    margin: 0 auto;
-}
-
-.nav{
+.logo{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    background-color: blanchedalmond;
-    border-radius: 10px;
-}
-
-.nav div{
-    display: flex;
     align-items: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    cursor: pointer;
-}
-
-.nav div:hover{
-    background-color: red;
-    color: white;
-    border-radius: 10px;
-}
-
-.nav div h2{
+    grid-template-columns: repeat(2,1fr);
     margin: 0 auto;
-}
-
-.container{
-    display: flex;
-}
-
-.container section{
     width: 80%;
 }
 
-.container aside{
-    width: 20%;
-    margin-left: 1%;
-}
-
-.section{
-    background-color: azure;
-    border-radius: 10px;
-}
-
-.section:hover{
-    background-color: lightblue;
-}
-
-.section h3{
-    padding-top: 5px;
-    text-align: center;
-}
-
-.section p{
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-
-.oculto{
-    display: none;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-
-.boton-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 5px;
-}
-
-.boton-section button p{
-    margin: 0 auto;
-}
-
-.aside{
-    background-color: rgb(147, 204, 185);
-    border-radius: 10px;
-}
-
-.aside h3{
-    text-align: center;
-    padding-top: 5px;
-}
-
-.aside li{
-    padding-bottom: 5px;
-}
-
-footer div{
-    width: 100%;
-    background-color: blueviolet;
+.logo-h1{
+    background-color: rgb(177, 82, 39);
     color: white;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    font-family: "Lucida Handwriting" , "Brush Script MT", cursive;
+}
+
+.logo-h1:hover{
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.principal{
+    background-color: rgb(58, 27, 14);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 0.92;
+}
+
+.nav ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    width: 100%;
+    padding-left: 0;
+}
+
+.nav ul li{
+    list-style: none;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 211, 211);
+}
+
+.nav ul li a:hover{
+    text-decoration: underline;
+    color: white;
 }
