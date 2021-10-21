@@ -2,8 +2,7 @@ body{
     background-image: url("https://i.pinimg.com/originals/04/5f/96/045f96386935b0f63e7e2749250f4c00.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    line-height: 1.5em;
-    height: 100vh;
+    background-attachment: fixed;
 }
 
 .logo{
@@ -12,6 +11,7 @@ body{
     grid-template-columns: repeat(2,1fr);
     margin: 0 auto;
     width: 80%;
+    margin-bottom: 2%;
 }
 
 .logo-h1{
@@ -29,10 +29,14 @@ body{
 }
 
 .principal{
-    background-color: rgb(58, 27, 14);
     width: 80%;
     margin: 0 auto;
-    border-radius: 10px;
+}
+
+.nav{
+    background-color: rgb(58, 27, 14);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     opacity: 0.92;
 }
 
@@ -42,6 +46,7 @@ body{
     align-items: center;
     width: 100%;
     padding-left: 0;
+    margin: 0px;
 }
 
 .nav ul li{
@@ -49,15 +54,38 @@ body{
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
-    border-radius: 10px;
 }
 
 .nav ul li a{
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: transparent;
     color: rgb(212, 211, 211);
+    font-size: 19px;
 }
 
 .nav ul li a:hover{
-    text-decoration: underline;
+    text-decoration-color: white;
+    transition: 2s;
     color: white;
+}
+
+.home{
+    background-color: black;
+    opacity: 0.92;
+}
+
+.home-nav{
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.home-nav div:first-child{
+    margin: 0;
+}
+
+.home-nav div{
+    margin-left: auto;
 }
