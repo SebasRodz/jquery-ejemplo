@@ -190,3 +190,75 @@ body{
     transition: 2s;
     max-width: 92%;
 }
+
+.content-left-news{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content-left-news-header{
+    height: 20%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.content-left-news-header:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+
+.content-left-news-header h4{
+    font-size: 20px;
+    font-family: "Lucida Handwriting" , "Brush Script MT", cursive;
+}
+
+.content-left-news-section{
+    background-color: rgb(85, 80, 80);
+    border-radius: 10px;
+}
+
+.content-left-news-section ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-left-news-section ul li{
+    font-size: 18px;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.content-left-news-section ul li:hover{
+    color: white;
+}
+
+.content-right{
+    width: 30%;
+}
+
+.content-right-header{
+    color: white;
+    display: flex;
+    background-color: black;
+    margin-top: 10%;
+    width: 90%;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.content-right-header:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+
+.content-right-header h2{
+    font-family: "Lucida Handwriting" , "Brush Script MT", cursive;
+}
